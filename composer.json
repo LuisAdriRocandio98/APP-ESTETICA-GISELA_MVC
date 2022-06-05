@@ -1,0 +1,24 @@
+{
+    "name": "pc/estetica-salon",
+    "description": "Proyecto PHP 8 Estetica-Salon",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "MVC\\" : "./",
+            "Controllers\\" : "./controllers",
+            "Model\\" : "./models",
+            "Classes\\" : "./classes"
+        }
+    },
+    "authors": [
+        {
+            "name": "Luis",
+            "email": "luisadrianlopezrocandio@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.6",
+        "mpdf/mpdf": "^6.1",
+        "vlucas/phpdotenv": "^5.4"
+    }
+}
